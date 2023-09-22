@@ -23,7 +23,7 @@ imageElement.setAttribute('alt', 'Profile image of Rafaela Garcia');
 
 
 /* Step 5 - Array */
-let foodArray = ['Juice', 'Hibiscus', 'Lime', 'Passion fruit', 'Orange', 'Strawberry', 'Blueberry'];
+let foodArray = ['Juice', 'Pho Soup', 'Lime', 'Passion fruit', 'Orange', 'Strawberry', 'Blueberry'];
 foodElement.textContent = foodArray;
 
 foodArray.push('Sushi');
