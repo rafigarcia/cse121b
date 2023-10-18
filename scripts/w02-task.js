@@ -3,7 +3,7 @@
 /* Step 1 - Setup type tasks - no code required */
 
 /* Step 2 - Variables */
-const fullName = 'Rafaela Garcia';
+const fullName = 'Rafaela Schneggenburger';
 let currentYear = new Date().getFullYear();
 let profilePicture = 'images/rafaela.png';
 
@@ -19,7 +19,7 @@ const imageElement = document.querySelector('img');
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
 yearElement.textContent = currentYear;
 imageElement.setAttribute('src', profilePicture);
-imageElement.setAttribute('alt', 'Profile image of Rafaela Garcia');
+imageElement.setAttribute('alt', 'Profile image of Rafaela Schneggenburger');
 
 
 /* Step 5 - Array */
