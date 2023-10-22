@@ -1,0 +1,103 @@
+/* Body and Background */
+body {
+    background-color: #d4eef7;
+    font-family: Arial, sans-serif;
+
+}
+  
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffffef;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    color: #333;
+}
+  
+/* Header */
+h1 {
+    color: brown;
+    font-size: 36px;
+    margin-top: 0;
+    justify-content: center;
+}
+  
+/* Search Container */
+.search-container {
+    margin-top: 20px;
+}
+  
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 16px;
+}
+
+button#search-btn {
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+/* Result Section */
+#result {
+    margin-top: 20px;
+}
+
+h3 {
+    color: brown;
+    font-size: 20px;
+}
+  
+/* Recipe Display */
+.details {
+    margin-top: 20px;
+}
+  
+h2 {
+    color: brown;
+    font-size: 24px;
+}
+  
+h4 {
+    color: green;
+    font-size: 18px;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+  
+#ingredient-con ul {
+    list-style-type: square;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+}
+  
+#instructions {
+    text-align: left;
+    white-space: pre-wrap;
+    font-size: 20px;
+    line-height: 30px;
+}
+  
+/* Footer */
+footer {
+    margin-top: 20px;
+    color: #777;
+}
